@@ -11,6 +11,7 @@ int v2 = 0u;
 Just like done in excel tables to continue the linear sequence of numbers, but can be done with more than one number:
 
 int v0 = 0u;
+
 int v1 = 2u;
 
 smart pastes:
