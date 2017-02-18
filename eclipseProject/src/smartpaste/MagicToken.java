@@ -6,7 +6,7 @@ public class MagicToken {
 	// backwards strings
 	public static final String hex_regex = "(^[a-fA-F0-9]+[xX]0)(.*)";
 	public static final String dec_regex = "(^[0-9]+)(.*)";
-	public static final String txt_regex = "(^[^\\,\\;\\:\\ (\\r\\n|[\\r\\n])\\+0-9]+)(.*)";
+	public static final String txt_regex = "(^[^\\,\\;\\:\\ (\\r\\n|[\\r\\n])0-9]+)(.*)";
 	public static final String sep_regex = "(^[\\,\\;\\:\\ (\\r\\n|[\\r\\n])]+)(.*)";
 	
 	public static Pattern hex_pat;
